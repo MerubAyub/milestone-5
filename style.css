@@ -1,0 +1,90 @@
+/* styling form and resume section */
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: wheat;
+}
+
+form{
+    margin: auto;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+
+fieldset{
+    border: 2px soild wheat;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: wheat;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color: wheat;
+}
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+button{
+    display: block;
+    width: 100%;
+    background-color: wheat;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+    color: black;
+}
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid beige;
+    border-radius: 8px;
+    background-color: wheat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* making the resume editable */
+    outline: none;
+}
+
+#resume-display h2 {
+    color: black;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+#download-pdf{
+    color: black;
+    background-color: wheat;
+
+}
